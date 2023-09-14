@@ -4,8 +4,8 @@ services:
     build: .
     ports:
       - "8000:8000"
-  sqlite3:
-    volumes:
-      - todo-db: /home/ubuntu/projects/django-todo
+    
+volumes:
+  - todo-db: /home/ubuntu/projects/django-todo
    
    
